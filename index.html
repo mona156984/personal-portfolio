@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="الموقع الشخصي لمنى القاضي — مهتمة بصناعة المحتوى والكتابة الإبداعية والتصميم والتقنية." />
+  <meta name="theme-color" content="#FBF7F1" />
+  <title>منى القاضي | مساحات إبداعية</title>
+
+  <!-- أيقونة بسيطة مضمّنة حتى لا نحتاج إلى ملفات إضافية -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%236F5343'/%3E%3Ctext x='32' y='45' font-size='40' text-anchor='middle' fill='%23fff' font-family='Arial'%3E%D9%85%3C/text%3E%3C/svg%3E" />
+
+  <!-- خط Cairo من Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">تخطَّ إلى المحتوى</a>
+
+  <!-- ================= شريط التنقل ================= -->
+  <header class="site-header">
+    <nav class="navbar container" aria-label="القائمة الرئيسية">
+      <a class="brand" href="#home" aria-label="العودة إلى الرئيسية">
+        <span class="brand__mark" aria-hidden="true">م</span>
+        <span class="brand__name">منى الشيباني</span>
+      </a>
+
+      <!-- زر القائمة للجوال (يعمل بـ CSS فقط عبر :target) -->
+      <a class="nav-toggle" href="#nav-menu" aria-label="فتح قائمة التنقل" aria-controls="nav-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+
+      <ul class="nav-links" id="nav-menu">
+        <li><a href="#home">الرئيسية</a></li>
+        <li><a href="#about">من أنا</a></li>
+        <li><a href="#skills">مهاراتي</a></li>
+        <li><a href="#interests">اهتماماتي</a></li>
+        <li class="nav-links__cta"><a href="#contact">تواصل</a></li>
+        <li class="nav-links__close"><a href="#close-menu">إغلاق القائمة</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ================= الواجهة الرئيسية ================= -->
+    <section class="hero" id="home">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow">محتوى · تصميم · إبداع</p>
+          <h1 class="hero__title">منى <span>القاضي</span></h1>
+          <p class="hero__quote">أصنع من الأفكار مساحات تُرى، ومن الكلمات أثرًا يُحسّ.</p>
+
+          <a class="btn" href="#about">
+            تعرّفي عليّ
+            <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M19 12H5" />
+              <path d="m11 6-6 6 6 6" />
+            </svg>
+          </a>
+
+          <p class="hero__scroll" aria-hidden="true">
+            <span class="hero__scroll-line"></span>
+            مرّري قليلًا لتكتشفي المزيد
+          </p>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__ornament"></div>
+          <div class="arch">
+            <span class="arch__monogram">م</span>
+          </div>
+          <span class="float-card float-card--one">كلمات تُروى</span>
+          <span class="float-card float-card--two">أفكار تُرى</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= من أنا ================= -->
+    <section class="section section--tint" id="about">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__label">من أنا</span>
+          <h2 class="section__title">حكاية شغفٍ يتجدد</h2>
+        </div>
+
+        <div class="about__grid">
+          <p class="about__text reveal reveal--slow">
+            أنا منى القاضي، مهتمة بصناعة المحتوى والكتابة الإبداعية والتصميم. أجد في المعرفة مساحة لاكتشاف الذات، وفي الإبداع وسيلة للتعبير عن الأفكار وتحويلها إلى تجارب ملموسة. أسعى إلى تطوير مهاراتي في التقنية والذكاء الاصطناعي، والجمع بين شغفي الإبداعي ومعرفتي الأكاديمية ومهتمة بالاعمال اليدوية مثل الخياطة والتطريز اليدوي، وأهوى الالقاء الصوتي.
+          </p>
+
+          <ul class="about__notes reveal reveal--slow">
+            <li class="about__note">
+              <span class="about__note-mark" aria-hidden="true"></span>
+              <div>
+                <strong>الكتابة والتعبير</strong>
+                <span>أثرٌ يبدأ من كلمة</span>
+              </div>
+            </li>
+            <li class="about__note">
+              <span class="about__note-mark" aria-hidden="true"></span>
+              <div>
+                <strong>التقنية والذكاء الاصطناعي</strong>
+                <span>فضولٌ يتجدد كل يوم</span>
+              </div>
+            </li>
+            <li class="about__note">
+              <span class="about__note-mark" aria-hidden="true"></span>
+              <div>
+                <strong>الأعمال اليدوية والإلقاء</strong>
+                <span>تفاصيل تصنع الحضور</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= المهارات ================= -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__label">مهاراتي</span>
+          <h2 class="section__title">ما أتقنه وأحبّ ممارسته</h2>
+          <p class="section__intro">مجموعة من الأدوات التي أستخدمها لأحوّل الفكرة إلى أثر واضح وجميل.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <span class="skill-card__num" aria-hidden="true">٠١</span>
+            <span class="skill-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 20h9" />
+                <path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L8 18l-4 1 1-4Z" />
+              </svg>
+            </span>
+            <h3>الكتابة الإبداعية</h3>
+            <p>أفكار تُصاغ بأسلوب يحمل أثرًا.</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="skill-card__num" aria-hidden="true">٠٢</span>
+            <span class="skill-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="5" width="18" height="14" rx="3" />
+                <circle cx="12" cy="12" r="3.2" />
+                <path d="m8 5 1-2h6l1 2" />
+              </svg>
+            </span>
+            <h3>صناعة المحتوى</h3>
+            <p>رسائل واضحة تُروى بصورة متناسقة.</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="skill-card__num" aria-hidden="true">٠٣</span>
+            <span class="skill-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3a9 9 0 1 0 0 18h1.5a2 2 0 0 0 1.5-3.3 2 2 0 0 1 1.5-3.3H18a3 3 0 0 0 3-3A9 9 0 0 0 12 3Z" />
+                <circle cx="7.6" cy="11.6" r="1" />
+                <circle cx="10.2" cy="7.6" r="1" />
+                <circle cx="15" cy="7.8" r="1" />
+              </svg>
+            </span>
+            <h3>التصميم والتنسيق البصري</h3>
+            <p>تفاصيل بسيطة تُحدث فرقًا.</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="skill-card__num" aria-hidden="true">٠٤</span>
+            <span class="skill-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5Z" />
+                <path d="M4 5.5v15" />
+                <path d="M8 7h8" />
+              </svg>
+            </span>
+            <h3>البحث والتعلم</h3>
+            <p>فضول مستمر ومعرفة تتجدد.</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="skill-card__num" aria-hidden="true">٠٥</span>
+            <span class="skill-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 19v-1.5a3.5 3.5 0 0 0-3.5-3.5h-5A3.5 3.5 0 0 0 4 17.5V19" />
+                <circle cx="10" cy="8" r="3.2" />
+                <path d="M19 8v6" />
+                <path d="M16 11h6" />
+              </svg>
+            </span>
+            <h3>التواصل والعمل الجماعي</h3>
+            <p>حوار مفتوح وأثر مشترك.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= الاهتمامات ================= -->
+    <section class="section section--tint" id="interests">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__label">اهتماماتي</span>
+          <h2 class="section__title">ما يشغل فضولي</h2>
+          <p class="section__intro">مساحات أعود إليها دائمًا، أتعلم منها وأجد فيها متعة الاكتشاف.</p>
+        </div>
+
+        <ul class="interests-list">
+          <li class="interest reveal"><span class="interest__dot" aria-hidden="true"></span>الأدب والكتابة</li>
+          <li class="interest reveal"><span class="interest__dot" aria-hidden="true"></span>صناعة المحتوى</li>
+          <li class="interest reveal"><span class="interest__dot" aria-hidden="true"></span>التصميم والإبداع</li>
+          <li class="interest reveal"><span class="interest__dot" aria-hidden="true"></span>التقنية والذكاء الاصطناعي</li>
+          <li class="interest reveal"><span class="interest__dot" aria-hidden="true"></span>التطريز اليدوي</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= التواصل ================= -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div class="contact-card__ornament" aria-hidden="true"></div>
+          <div class="contact-card__inner">
+            <span class="contact-card__label">تواصل</span>
+            <h2 class="contact-card__title">يسعدني أن أسمع منك</h2>
+            <p class="contact-card__text">لأي فكرة، أو سؤال، أو حديث عن الإبداع — الباب مفتوح دائمًا.</p>
+
+            <div class="contact-methods">
+              <a class="contact-method" href="mailto:mona8xoe11@gmail.com">
+                <span class="contact-method__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="5" width="18" height="14" rx="3" />
+                    <path d="m4 7 8 6 8-6" />
+                  </svg>
+                </span>
+                <span class="contact-method__value" dir="ltr">mona8xoe11@gmail.com</span>
+              </a>
+
+              <a class="contact-method" href="tel:0563730112">
+                <span class="contact-method__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M6.5 3h3l1.5 4-2 1.5a12 12 0 0 0 6.5 6.5L17 13l4 1.5v3a2 2 0 0 1-2.2 2A16 16 0 0 1 4 5.2 2 2 0 0 1 6.5 3Z" />
+                  </svg>
+                </span>
+                <span class="contact-method__value" dir="ltr">0563730112</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= التذييل ================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <span class="site-footer__line" aria-hidden="true"></span>
+      <p>جميع الحقوق محفوظة © منى القاضي.</p>
+    </div>
+  </footer>
+</body>
+</html>

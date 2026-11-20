@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" aria-hidden="true">
+  <g stroke="#9A7A63" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.7">
+    <circle cx="200" cy="200" r="152" stroke-dasharray="2 11" opacity="0.55" />
+    <circle cx="200" cy="200" r="120" opacity="0.35" />
+    <path d="M200 332V96" />
+    <path d="M200 272c-46-4-80-34-90-78 46 4 80 34 90 78Z" />
+    <path d="M200 272c46-4 80-34 90-78-46 4-80 34-90 78Z" />
+    <path d="M200 218c-36-4-62-28-70-60 36 4 62 28 70 60Z" />
+    <path d="M200 218c36-4 62-28 70-60-36 4-62 28-70 60Z" />
+    <path d="M200 164c-24-3-42-19-48-41 24 3 42 19 48 41Z" />
+    <path d="M200 164c24-3 42-19 48-41-24 3-42 19-48 41Z" />
+    <path d="M200 100c-10 12-10 24 0 36 10-12 10-24 0-36Z" />
+  </g>
+  <g fill="#9A7A63" opacity="0.45">
+    <circle cx="110" cy="194" r="2.5" />
+    <circle cx="290" cy="194" r="2.5" />
+    <circle cx="200" cy="48" r="2.5" />
+  </g>
+</svg>
